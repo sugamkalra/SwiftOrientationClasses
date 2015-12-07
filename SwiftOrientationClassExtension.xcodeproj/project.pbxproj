@@ -15,6 +15,10 @@
 		151B5C391C156053009E3B2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151B5C371C156053009E3B2F /* LaunchScreen.storyboard */; };
 		151B5C441C156053009E3B2F /* SwiftOrientationClassExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151B5C431C156053009E3B2F /* SwiftOrientationClassExtensionTests.swift */; };
 		151B5C4F1C156053009E3B2F /* SwiftOrientationClassExtensionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151B5C4E1C156053009E3B2F /* SwiftOrientationClassExtensionUITests.swift */; };
+		151B5C5E1C156092009E3B2F /* NavigationControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151B5C5D1C156092009E3B2F /* NavigationControllers.swift */; };
+		151B5C601C15610B009E3B2F /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151B5C5F1C15610B009E3B2F /* HelperFunctions.swift */; };
+		151B5C621C156254009E3B2F /* AlmaRotateYourPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151B5C611C156254009E3B2F /* AlmaRotateYourPhoneViewController.swift */; };
+		151B5C641C1562F9009E3B2F /* CaneQuality.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151B5C631C1562F9009E3B2F /* CaneQuality.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		151B5C4A1C156053009E3B2F /* SwiftOrientationClassExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftOrientationClassExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		151B5C4E1C156053009E3B2F /* SwiftOrientationClassExtensionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOrientationClassExtensionUITests.swift; sourceTree = "<group>"; };
 		151B5C501C156053009E3B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		151B5C5D1C156092009E3B2F /* NavigationControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllers.swift; sourceTree = "<group>"; };
+		151B5C5F1C15610B009E3B2F /* HelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		151B5C611C156254009E3B2F /* AlmaRotateYourPhoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlmaRotateYourPhoneViewController.swift; sourceTree = "<group>"; };
+		151B5C631C1562F9009E3B2F /* CaneQuality.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CaneQuality.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		151B5C2A1C156053009E3B2F /* SwiftOrientationClassExtension */ = {
 			isa = PBXGroup;
 			children = (
+				151B5C5C1C156082009E3B2F /* OrientationClassExtension */,
 				151B5C2B1C156053009E3B2F /* AppDelegate.swift */,
 				151B5C2D1C156053009E3B2F /* ViewController.swift */,
 				151B5C2F1C156053009E3B2F /* Main.storyboard */,
@@ -126,6 +135,17 @@
 				151B5C501C156053009E3B2F /* Info.plist */,
 			);
 			path = SwiftOrientationClassExtensionUITests;
+			sourceTree = "<group>";
+		};
+		151B5C5C1C156082009E3B2F /* OrientationClassExtension */ = {
+			isa = PBXGroup;
+			children = (
+				151B5C5F1C15610B009E3B2F /* HelperFunctions.swift */,
+				151B5C5D1C156092009E3B2F /* NavigationControllers.swift */,
+				151B5C611C156254009E3B2F /* AlmaRotateYourPhoneViewController.swift */,
+				151B5C631C1562F9009E3B2F /* CaneQuality.storyboard */,
+			);
+			name = OrientationClassExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				151B5C391C156053009E3B2F /* LaunchScreen.storyboard in Resources */,
+				151B5C641C1562F9009E3B2F /* CaneQuality.storyboard in Resources */,
 				151B5C361C156053009E3B2F /* Assets.xcassets in Resources */,
 				151B5C311C156053009E3B2F /* Main.storyboard in Resources */,
 			);
@@ -259,7 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				151B5C601C15610B009E3B2F /* HelperFunctions.swift in Sources */,
 				151B5C341C156053009E3B2F /* SwiftOrientationClassExtension.xcdatamodeld in Sources */,
+				151B5C621C156254009E3B2F /* AlmaRotateYourPhoneViewController.swift in Sources */,
+				151B5C5E1C156092009E3B2F /* NavigationControllers.swift in Sources */,
 				151B5C2E1C156053009E3B2F /* ViewController.swift in Sources */,
 				151B5C2C1C156053009E3B2F /* AppDelegate.swift in Sources */,
 			);
